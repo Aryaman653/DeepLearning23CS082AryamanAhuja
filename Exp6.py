@@ -149,3 +149,34 @@ print("Prediction:", predict("This movie was fantastic!"))
 
 print("Review: Worst film ever made.")
 print("Prediction:", predict("Worst film ever made."))
+
+
+#Result
+
+# (base) aryaman@Aryamans-MacBook-Air DeepLearningLab % python3 imdb_rnn.py
+
+# Using device: cpu
+
+# ===== Loading IMDB Dataset =====
+# Building vocabulary...
+# Vocabulary size: 10002
+
+# ===== Training RNN Model =====
+
+# Epoch 1: Loss=0.6532, Accuracy=74.18%
+# Epoch 2: Loss=0.5427, Accuracy=80.96%
+# Epoch 3: Loss=0.4685, Accuracy=84.21%
+# Epoch 4: Loss=0.4129, Accuracy=86.03%
+# Epoch 5: Loss=0.3684, Accuracy=87.25%
+
+# ===== Training Completed =====
+# Final Test Accuracy: 87.25%
+
+# Sample Predictions:
+# Review: This movie was fantastic!
+# Prediction: Positive
+
+# Review: Worst film ever made.
+# Prediction: Negative
+
+# (base) aryaman@Aryamans-MacBook-Air DeepLearningLab %
